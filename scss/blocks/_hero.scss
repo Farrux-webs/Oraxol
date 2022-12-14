@@ -1,0 +1,100 @@
+.hero {
+    margin-top: 35px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.05);
+
+    .heroContents {
+        margin-bottom: 15px;
+
+        .heading {
+            color: #fff;
+            font-weight: 500;
+            font-size: 55px;
+
+            span {
+                text-decoration: underline;
+            }
+        }
+
+        .Available {
+            margin-right: 20px;
+            font-size: 15px;
+            font-weight: 400;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 5px 12px;
+            border-radius: 2px;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+    }
+
+    .imgfour {
+
+        a {
+            width: 193px;
+            height: 150px;
+            background-size: cover;
+            margin-right: 15px;
+
+        }
+
+        &:first-child {
+            a {
+                background-image: url("https://preview.colorlib.com/theme/oraxol/images/work-1.jpg");
+            }
+        }
+
+        &:nth-child(2) {
+            a {
+                background-image: url("https://preview.colorlib.com/theme/oraxol/images/work-2.jpg");
+            }
+        }
+
+        &:nth-child(3) {
+            a {
+                background-image: url("https://preview.colorlib.com/theme/oraxol/images/work-3.jpg");
+            }
+        }
+
+        &:last-child {
+            a {
+                background-image: url("https://preview.colorlib.com/theme/oraxol/images/work-4.jpg");
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .hero {
+        margin-bottom: 15px;
+        padding-bottom: 8px;
+
+        .heroContents {
+            margin-bottom: 8px;
+
+            .heading {
+                color: #fff;
+                font-weight: 500;
+                font-size: 32px;
+                padding: 0;
+
+                span {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+        //  .imgfour {
+    
+        //      a {
+        //          width: 143px;
+        //          height: 100px;
+        //          background-size: cover;
+
+
+    
+        //      }
+        //  }
+}

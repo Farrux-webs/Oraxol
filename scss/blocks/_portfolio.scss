@@ -1,0 +1,57 @@
+.portfolio{
+    margin-bottom: 150px;
+    .portfolioItems{
+
+        &:first-child{
+            .img{
+                background-image: url("https://preview.colorlib.com/theme/oraxol/images/work-1.jpg");
+                height: 550px;
+                background-size: cover;
+            }
+        }
+        &:nth-child(2){
+            .img{
+                background-image: url("https://preview.colorlib.com/theme/oraxol/images/work-2.jpg");
+                height: 550px;
+                background-size: cover;
+            }
+        }
+        &:nth-child(3){
+            .img{
+                background-image: url("https://preview.colorlib.com/theme/oraxol/images/work-3.jpg");
+                height: 550px;
+                background-size: cover;
+            }
+        }
+        &:nth-child(4){
+            .img{
+                background-image: url("https://preview.colorlib.com/theme/oraxol/images/work-4.jpg");
+                height: 550px;
+                background-size: cover;
+            }
+        }
+        &:nth-child(5){
+            .img{
+                background-image: url("https://preview.colorlib.com/theme/oraxol/images/work-5.jpg");
+                height: 550px;
+                background-size: cover;
+            }
+        }
+        &:last-child{
+            .img{
+                background-image: url("https://preview.colorlib.com/theme/oraxol/images/work-6.jpg");
+                height: 550px;
+                background-size: cover;
+            }
+        }
+
+    }
+    .text{
+        padding: 30px;
+
+        .category{
+            color: #aaaaaa;
+            text-decoration: underline;
+        }
+    }
+}

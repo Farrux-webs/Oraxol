@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background: #fff;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #aaaaaa;
+    background: #1d1e21;
+    overflow-x: hidden
+}
+
+@media only screen and(max-width: 992px){
+    header{
+        background-color: #000;
+    }
+}

@@ -1,0 +1,56 @@
+.Team {
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.05);
+    .team-grid {
+
+        .team-item {
+
+            .team-wrap {
+                .text {
+                    width: 311px;
+                }
+
+                .img {
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50% 0 50% 50%;
+                    opacity: 1;
+                    -moz-transition: all 0.5s ease;
+                    -o-transition: all 0.5s ease;
+                    -webkit-transition: all 0.5s ease;
+                    -ms-transition: all 0.5s ease;
+                    transition: all 0.5s ease;
+                    background-size: cover;
+                }  
+            }
+
+                         &:first-child {
+                             .img {
+                                 width: 120px;
+                                 height: 120px;
+                                 background-image: url("https://preview.colorlib.com/theme/oraxol/images/team-1.jpg");
+                             }
+                         }
+            
+                         &:nth-child(2) {
+                             .img {
+                                 background-image: url("https://preview.colorlib.com/theme/oraxol/images/team-2.jpg");
+                             }
+                         }
+            
+                         &:nth-child(3) {
+                             .img {
+                                 background-image: url("https://preview.colorlib.com/theme/oraxol/images/team-3.jpg");
+                             }
+                         }
+            
+                         &:last-child {
+                             .img {
+                                 background-image: url("https://preview.colorlib.com/theme/oraxol/images/team-4.jpg");
+                             }
+                         }
+
+        }
+    }
+}
